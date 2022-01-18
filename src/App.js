@@ -108,7 +108,7 @@ function App() {
         })}
 
       </div>
-      {turn ? <div className="turns"> <p> Turns {turn} </p></div> : ""}
+      {card ? <div className="turns"> <p> Turns {turn} </p></div> : ""}
     </div>
   );
 }
